@@ -370,26 +370,7 @@ We welcome contributions! Please feel free to submit issues, feature requests, a
 
 ---
 
-## 📜 License
 
-This project is released under the [MIT License](LICENSE). Please check individual dataset licenses for specific usage terms.
-
----
-
-## 📄 Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{wang2025finlora,
-  title={FinLoRA: Benchmarking LoRA Methods for Fine-Tuning LLMs on Financial Datasets},
-  author={Wang, Dannong and Patel, Jaisal and Zha, Daochen and Yang, Steve Y and Liu, Xiao-Yang},
-  journal={arXiv preprint arXiv:2505.19819},
-  year={2025}
-}
-```
-
----
 
 <div align="center">
 
