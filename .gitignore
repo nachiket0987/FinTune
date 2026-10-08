@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Ignore wandb logs
+wandb/
+
+# Ignore train/ft_models folder
+train/ft_models/
+/mamba/
+/xbrl/
+
+# LoRA checkpoint intermediates
+/lora_adapters/*/checkpoint-*/
+
+# Large dataset files
+/data/train/DowJones30/
+data/train/xbrl_extract_raw.json
+/data/train/gemini/
+
+# Sphinx build output
+docs/build
+
+# Axolotl output
+lora/axolotl-output/
+
+# Model weights (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+.venv/
+
+# Large raw dataset files exceeding standard git limits
+data/test/finer_test_batched.jsonl
+data/train/finer_train_batched.jsonl
+data/train/gemini/finer_train_batched_gemini.jsonl
+data/train/multi/
+data/train/xbrl_extract_train.jsonl
+
